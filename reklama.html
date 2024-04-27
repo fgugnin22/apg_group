@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная - apggroup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script defer src="header.js" type="module"></script>
+    <script type="module" src="./carousel.js"></script>
+  </head>
+  <body
+    class="min-h-[calc(100vh+100px)] flex flex-col relative bg-opacity-50 font-medium bg-main text-paragraph"
+  >
+    <header
+      class="mt-4 xl:mt-0 flex justify-center xl:sticky xl:z-50 xl:top-10 mx-auto container"
+    >
+      <nav
+        class="shadow-base hover:shadow-hover transition duration-300 bg-color4 w-full py-4 pr-16 xl:pr-0 xl:py-0 xl:h-16 flex-col xl:flex-row flex justify-evenly xl:items-center text-lg xl:text-xl rounded-xl px-4 relative"
+      >
+        <div class="flex gap-4 items-center justify-between px-5 xl:hidden">
+          <h1 class="font-medium font-serif xl:hidden text-left">
+            НПЦ "АПОГЕЙ"
+          </h1>
+          <button class="h-full relative left-3" id="header-open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              fill="none"
+              viewBox="0 0 24 25"
+            >
+              <path
+                class="block xl:hidden"
+                fill="#000"
+                fill-rule="evenodd"
+                d="M3 7.5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992A.993.993 0 0 0 3 7.5Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <button
+          id="header-close"
+          class="absolute top-4 right-3 z-50 border border-paragraph rounded-xl p-1"
+        >
+          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z"
+              fill="#000000"
+            />
+          </svg>
+        </button>
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/index.html"
+          >Главная</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/services.html"
+          >Услуги</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/poligraphy.html"
+          >Полиграфия</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/pechati_shtampi.html"
+          >Печати и штампы</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/reklama.html"
+          >Наружная реклама</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/souvenirs.html"
+          >Сувенирная продукция</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/contacts.html"
+          >Контакты</a
+        >
+      </nav>
+    </header>
+    <main class="mt-8 xl:mt-20 font-normal">
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto p-8 rounded-xl bg-color5"
+      >
+        <h2 class="text-2xl xl:text-3xl font-semibold mb-4">
+          Наружная реклама
+        </h2>
+        <p class="mb-4">
+          Как известно, реклама активно способствует продвижению новых марок
+          товаров и услуг на потребительском рынке. А между тем, наружная
+          реклама во всех ее проявлениях является на сегодняшний день наиболее
+          действенной с точки зрения ее восприятия потребителями. Одновременно с
+          этим - имеет широкий охват, соответственно, максимальное количество
+          контактов с потенциально заинтересованными людьми.
+        </p>
+        <h3 class="font-semibold text-xl mb-1">У нас:</h3>
+        <ul class="list-disc pl-5">
+          <li>
+            собственная производственная база для изготовления наружной рекламы
+          </li>
+          <li>креативный потенциал (более 18 лет работы в наружной рекламе)</li>
+          <li>высококвалифицированные специалисты</li>
+          <li>нетрадиционные решения даже простых задач в наружной рекламе</li>
+          <li>гибкость подхода и быстрота реагирования</li>
+          <li>более тесные и стратегические взаимоотношения с клиентами</li>
+          <li>
+            индивидуальный подход позволяющий удовлетворить любые пожелания
+            заказчиков
+          </li>
+        </ul>
+      </section>
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto p-8 rounded-xl bg-color4 mt-12"
+      >
+        <h2 class="text-2xl xl:text-3xl font-semibold mb-4">
+          Интерьерная реклама
+        </h2>
+        <p class="mb-4">
+          Профессиональная интерьерная реклама способна существенно увеличить
+          объемы продаж по продвигаемым позициям, поэтому качественное и
+          эффектное оформление мест продаж - важная составляющая в дизайне
+          торговых интерьеров. Наш центр предлагает Вам широкий спектр услуг,
+          <span class="font-semibold">а именно:</span>
+        </p>
+        <ul class="list-disc pl-5">
+          <li>информационные таблички и стенды</li>
+          <li>наборные информационные панно</li>
+          <li>выставочные стенды</li>
+          <li>вывески с торцевой подсветкой</li>
+          <li>указатели</li>
+        </ul>
+      </section>
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto p-8 rounded-xl bg-color5 my-12"
+      >
+        <h2 class="text-2xl xl:text-3xl font-semibold mb-4">
+          Широкоформатная печать
+        </h2>
+        <p class="mb-4">
+          А так же предоставляем полный спектр услуг в области производства
+          широкоформатной печати. Условно широкоформатную печать можно разделить
+          на две категории по области применения: наружная и интерьерная печать.
+        </p>
+        <p class="mb-4">
+          В зависимости от целей рекламной компании, наши менеджеры предложат
+          Вам печать на различных видах материалов: бумаге, самоклеющейся
+          пленке, баннерном полотне. Наш центр готов предоставить Вам различные
+          варианты широкоформатной печати: от самых недорогих до люкс решений.
+        </p>
+        <p class="mb-4">
+          Мы настоятельно рекомендуем заказчикам, которые впервые изготавливают
+          продукцию на широкоформатную печать, проконсультироваться у наших
+          специалистов, ознакомиться с образцами и обязательно изготовить
+          цветопробу.
+        </p>
+      </section>
+    </main>
+    <footer
+      class="shadow-base hover:shadow-hover transition duration-300 container mx-auto mb-8 mt-auto h-16 bg-color4 rounded-xl text-xs sm:text-base flex items-center justify-center text-center"
+    >
+      © 2014. ООО "НПЦ "Апогей". All Rights Reserved.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная - apggroup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script defer src="header.js" type="module"></script>
+  </head>
+  <body
+    class="min-h-[calc(100vh+100px)] flex flex-col relative bg-opacity-50 font-medium bg-main text-paragraph"
+  >
+    <header
+      class="mt-4 xl:mt-0 flex justify-center xl:sticky xl:z-50 xl:top-10 mx-auto container"
+    >
+      <nav
+        class="shadow-base hover:shadow-hover transition duration-300 bg-color4 w-full py-4 pr-16 xl:pr-0 xl:py-0 xl:h-16 flex-col xl:flex-row flex justify-evenly xl:items-center text-lg xl:text-xl rounded-xl px-4 relative"
+      >
+        <div class="flex gap-4 items-center justify-between px-5 xl:hidden">
+          <h1 class="font-medium font-serif xl:hidden text-left">
+            НПЦ "АПОГЕЙ"
+          </h1>
+          <button class="h-full relative left-3" id="header-open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              fill="none"
+              viewBox="0 0 24 25"
+            >
+              <path
+                class="block xl:hidden"
+                fill="#000"
+                fill-rule="evenodd"
+                d="M3 7.5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992A.993.993 0 0 0 3 7.5Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <button
+          id="header-close"
+          class="absolute top-4 right-3 z-50 border border-paragraph rounded-xl p-1"
+        >
+          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z"
+              fill="#000000"
+            />
+          </svg>
+        </button>
+        <a
+          class="h-14 xl:h-10 rounded-[10px] bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/index.html"
+          >Главная</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/services.html"
+          >Услуги</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/poligraphy.html"
+          >Полиграфия</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/pechati_shtampi.html"
+          >Печати и штампы</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/reklama.html"
+          >Наружная реклама</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/souvenirs.html"
+          >Сувенирная продукция</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/contacts.html"
+          >Контакты</a
+        >
+      </nav>
+    </header>
+    <main class="">
+      <div
+        class="rounded-xl bg-color4 w-fit mx-auto p-10 mt-4 lg:mt-20 shadow-base hover:shadow-hover transition duration-300"
+      >
+        <h1
+          class="container justify-center mx-auto font-serif lg:mb-0 text-3xl lg:text-4xl font-medium mb-4 flex items-center px-6"
+        >
+          ООО "НПЦ "АПОГЕЙ"
+        </h1>
+        <section
+          class="container mx-auto flex flex-col xl:flex-row xl:justify-center xl:gap-20 xl:items-center"
+        >
+          <div class="text-lg mx-4 mt-2">
+            ПРЕДЛАГАЕТ ПОЛНЫЙ СПЕКТР УСЛУГ В ОБЛАСТИ РЕКЛАМЫ
+            <ul class="list-disc pl-6">
+              <li>широкоформатная печать</li>
+              <li>полиграфия</li>
+              <li>печати и штампы</li>
+              <li>сувенирная продукция</li>
+            </ul>
+          </div>
+          <svg
+            class="w-1/5 min-w-[240px] mx-auto xl:m-0 fill-black"
+            viewBox="0 0 487.388 487.388"
+          >
+            <path
+              d="M472.794,25.046h-19.652c-8.047,0-14.593,6.546-14.593,14.593v16.583L44.356,140.603V135.9
+	c0-8.046-6.546-14.593-14.593-14.593h-15.17C6.546,121.307,0,127.854,0,135.9v198.448c0,8.046,6.546,14.593,14.593,14.593h15.17
+	c8.046,0,14.593-6.546,14.593-14.593v-4.666l21.942,4.701c-0.776,28.254,8.064,56.061,25.082,78.655
+	c17.877,23.734,43.745,40.256,72.837,46.523c8.642,1.861,17.391,2.782,26.109,2.781c20.642-0.001,41.092-5.161,59.394-15.199
+	c24.876-13.643,44.336-35.464,55.129-61.654l133.699,28.643v16.478c0,8.047,6.546,14.593,14.593,14.593h19.652
+	c8.047,0,14.593-6.546,14.593-14.593V39.639C487.388,31.592,480.841,25.046,472.794,25.046z M35.856,334.348
+	c0,3.359-2.733,6.093-6.093,6.093h-15.17c-3.36,0-6.093-2.733-6.093-6.093V135.9c0-3.359,2.733-6.093,6.093-6.093h15.17
+	c3.359,0,6.093,2.733,6.093,6.093V334.348z M166.008,451.251c-54.382-11.714-92.094-59.669-91.249-115.056l22.682,4.859
+	c0.705,20.035,7.841,39.52,20.294,55.186c13.283,16.709,32.118,28.393,53.036,32.898c6.443,1.388,12.984,2.074,19.506,2.074
+	c14.662,0,29.225-3.468,42.344-10.229c17.846-9.195,32.339-24.099,41.113-42.162l22.685,4.86
+	C274.676,434.701,220.574,463.007,166.008,451.251z M265.146,376.983c-17.323,33.51-55.464,51.841-92.585,43.847
+	c-37.589-8.096-64.319-39.76-66.526-77.934L265.146,376.983z M405.83,398.429V215.872c0-2.347-1.903-4.25-4.25-4.25
+	c-2.347,0-4.25,1.903-4.25,4.25v180.736l-272.5-58.379v-32.357c0-2.347-1.903-4.25-4.25-4.25c-2.347,0-4.25,1.903-4.25,4.25v30.537
+	l-44.5-9.533v-64.003c0-2.347-1.903-4.25-4.25-4.25c-2.347,0-4.25,1.903-4.25,4.25v62.182l-18.974-4.065V149.296l329.974-70.634
+	v19.211c0,2.347,1.903,4.25,4.25,4.25c2.347,0,4.25-1.903,4.25-4.25v-21.03l55.719-11.927v73.921L54.99,192.664
+	c-2.324,0.326-3.944,2.475-3.618,4.799c0.298,2.124,2.118,3.66,4.204,3.66c0.197,0,0.396-0.014,0.596-0.042l382.378-53.661v17.659
+	L234.736,194.62c-2.323,0.337-3.933,2.493-3.596,4.816c0.307,2.116,2.124,3.641,4.201,3.641c0.203,0,0.409-0.015,0.615-0.044
+	l202.593-29.365v231.772L405.83,398.429z M478.888,430.61c0,3.36-2.733,6.093-6.093,6.093h-4.964V304.872
+	c0-2.347-1.903-4.25-4.25-4.25c-2.347,0-4.25,1.903-4.25,4.25v131.831h-6.188c-3.36,0-6.093-2.733-6.093-6.093V39.639
+	c0-3.36,2.733-6.093,6.093-6.093h19.652c3.36,0,6.093,2.733,6.093,6.093V430.61z"
+            />
+          </svg>
+        </section>
+      </div>
+      <img
+        class="mx-auto min-w-[300px] w-3/5 max-w-[1000px] my-8 lg:my-12 shadow-base hover:shadow-hover transition duration-300"
+        src="./mediinaya_reklama.webp"
+        alt="."
+      />
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto text-xl lg:text-3xl font-bold my-12 bg-color4 rounded-xl p-8 flex flex-col lg:flex-row gap-4 w-fit sm:w-[53%]"
+      >
+        <div class="flex flex-col gap-4">
+          <h2>Контакты</h2>
+          <a class="hover:underline" href="tel:+79299152550"
+            >+7 (929) 915-25-50</a
+          >
+          <a class="hover:underline" href="mailto:stamp@apggroup.ru"
+            >stamp@apggroup.ru</a
+          >
+        </div>
+        <svg
+          class="w-32 mx-auto lg:!ml-auto lg:m-0"
+          viewBox="0 0 48 48"
+          version="1"
+          enable-background="new 0 0 48 48"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill="#4e5a70"
+              d="M38,44H12V4h26c2.2,0,4,1.8,4,4v32C42,42.2,40.2,44,38,44z"
+            ></path>
+            <path
+              fill="#f7dd72"
+              d="M10,4h2v40h-2c-2.2,0-4-1.8-4-4V8C6,5.8,7.8,4,10,4z"
+            ></path>
+            <g fill="#f7dd72">
+              <circle cx="26" cy="20" r="4"></circle>
+              <path d="M33,30c0,0-1.9-4-7-4c-5.1,0-7,4-7,4v2h14V30z"></path>
+            </g>
+          </g>
+        </svg>
+      </section>
+    </main>
+    <footer
+      class="shadow-base hover:shadow-hover transition duration-300 container mx-auto mb-8 mt-auto h-16 bg-color4 rounded-xl text-xs sm:text-base flex items-center justify-center text-center"
+    >
+      © 2014. ООО "НПЦ "Апогей". All Rights Reserved.
+    </footer>
+  </body>
+</html>

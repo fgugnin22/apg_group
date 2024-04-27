@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная - apggroup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script defer src="header.js" type="module"></script>
+    <script type="module" defer src="./carousel.js"></script>
+  </head>
+  <body
+    class="min-h-[calc(100vh+100px)] flex flex-col relative bg-opacity-50 font-medium bg-main text-paragraph"
+  >
+    <header
+      class="mt-4 xl:mt-0 flex justify-center xl:sticky xl:z-50 xl:top-10 mx-auto container"
+    >
+      <nav
+        class="shadow-base hover:shadow-hover transition duration-300 bg-color4 w-full py-4 pr-16 xl:pr-0 xl:py-0 xl:h-16 flex-col xl:flex-row flex justify-evenly xl:items-center text-lg xl:text-xl rounded-xl px-4 relative"
+      >
+        <div class="flex gap-4 items-center justify-between px-5 xl:hidden">
+          <h1 class="font-medium font-serif xl:hidden text-left">
+            НПЦ "АПОГЕЙ"
+          </h1>
+          <button class="h-full relative left-3" id="header-open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              fill="none"
+              viewBox="0 0 24 25"
+            >
+              <path
+                class="block xl:hidden"
+                fill="#000"
+                fill-rule="evenodd"
+                d="M3 7.5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992A.993.993 0 0 0 3 7.5Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Zm0 5c0 .552.455 1 .992 1h16.016a.993.993 0 0 0 .992-1c0-.552-.455-1-.992-1H3.992a.993.993 0 0 0-.992 1Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <button
+          id="header-close"
+          class="absolute top-4 right-3 z-50 border border-paragraph rounded-xl p-1"
+        >
+          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z"
+              fill="#000000"
+            />
+          </svg>
+        </button>
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/index.html"
+          >Главная</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/services.html"
+          >Услуги</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/poligraphy.html"
+          >Полиграфия</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/pechati_shtampi.html"
+          >Печати и штампы</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/reklama.html"
+          >Наружная реклама</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/souvenirs.html"
+          >Сувенирная продукция</a
+        >
+        <a
+          class="h-14 xl:h-10 rounded-[10px] hover:bg-color5 flex xl:pt-[5px] items-center transition px-6"
+          href="/contacts.html"
+          >Контакты</a
+        >
+      </nav>
+    </header>
+    <main class="mt-8 xl:mt-20 font-normal">
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto p-8 bg-color5 rounded-xl mb-12"
+      >
+        <h2 class="text-2xl lg:text-3xl font-medium mb-4">
+          Сувенирная продукция
+        </h2>
+        <p class="mb-4">
+          Если Вы заботитесь об имидже фирмы, планируете проведение Promotion
+          акций, готовитесь к проведению выставки, конференции, юбилея или
+          просто хотите преподнести рекламные сувениры с вашей фирменной
+          символикой (сувениры с логотипом) своим клиентам или сотрудникам, то
+          Наш центр сможет Вам помочь.
+        </p>
+        <ul class="list-disc pl-5">
+          <li>
+            <span class="font-medium">Флеш-карты</span> (4GB/8GB/16GB/32GB)
+          </li>
+          <li><span class="font-medium">Ежедневники</span></li>
+          <li>
+            <span class="font-medium">Ручки</span> (металлические, пластиковые)
+          </li>
+          <li><span class="font-medium">Кружки</span></li>
+          <li><span class="font-medium">Брелоки</span></li>
+          <li><span class="font-medium">Флешки</span></li>
+          <li><span class="font-medium">Визитницы</span></li>
+          <li><span class="font-medium">Значки</span></li>
+        </ul>
+        <p class="text-xl font-medium mt-4">И многое другое!</p>
+      </section>
+      <section
+        class="shadow-base hover:shadow-hover transition duration-300 container mx-auto xl:p-8 pt-4 pb-8 xl:pb-12 bg-color5 rounded-xl my-8"
+      >
+        <h2 class="text-2xl lg:text-3xl font-medium text-center mb-4">
+          Наши работы
+        </h2>
+        <div
+          id="image-carousel"
+          class="splide mx-auto max-w-[600px] !rounded-xl"
+          aria-label="Beautiful Images"
+        >
+          <div class="splide__track !rounded-xl">
+            <ul class="splide__list !rounded-xl">
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv1.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv2.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv3.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv4.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv5.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv6.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv7.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv8.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv9.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv10.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv11.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv12.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv13.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv14.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv15.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv16.jpg" alt="" />
+              </li>
+              <li class="splide__slide !rounded-xl flex items-center">
+                <img class="!rounded-xl" src="slsv17.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="shadow-base hover:shadow-hover transition duration-300 container mx-auto mb-8 mt-auto h-16 bg-color4 rounded-xl text-xs sm:text-base flex items-center justify-center text-center"
+    >
+      © 2014. ООО "НПЦ "Апогей". All Rights Reserved.
+    </footer>
+  </body>
+</html>
