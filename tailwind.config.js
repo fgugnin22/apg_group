@@ -8,7 +8,8 @@ export default {
     "./pechati_shtampi.html",
     "./reklama.html",
     "./souvenirs.html",
-    "./contacts.html"
+    "./contacts.html",
+    "./theme.js"
   ],
   theme: {
     extend: {

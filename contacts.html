@@ -3,26 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная - apggroup</title>
+    <title>Контакты - apggroup</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=715a74e6-3f91-46ef-9bea-a67752f91a9b"></script>
     <script defer src="header.js" type="module"></script>
+    <script defer src="./theme.js" type="module"></script>
   </head>
   <body
-    class="min-h-[calc(100vh+100px)] flex flex-col relative bg-opacity-50 font-medium bg-main text-paragraph"
+    class="min-h-[calc(100vh+100px)] flex flex-col relative duration-1000 font-medium bg-main text-paragraph"
   >
     <header
       class="mt-4 xl:mt-0 flex justify-center xl:sticky xl:z-50 xl:top-10 mx-auto container"
     >
       <nav
-        class="shadow-base hover:shadow-hover transition duration-300 bg-color4 w-full py-4 pr-16 xl:pr-0 xl:py-0 xl:h-16 flex-col xl:flex-row flex justify-evenly xl:items-center text-lg xl:text-xl rounded-xl px-4 relative"
+        class="shadow-base hover:shadow-hover transition duration-300 bg-color4 w-full py-4 pr-16 xl:pr-0 xl:py-0 xl:h-16 flex-col xl:flex-row flex justify-evenly xl:items-center text-lg 2xl:text-xl rounded-xl px-4 relative"
       >
         <div class="flex gap-4 items-center justify-between px-5 xl:hidden">
           <h1 class="font-medium font-serif xl:hidden text-left">
             НПЦ "АПОГЕЙ"
           </h1>
-          <button class="h-full relative left-3" id="header-open">
+          <button id="theme-btn-mob" class="w-8 h-8 ml-auto">
+            <svg
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g id="Lager_94" data-name="Lager 94" transform="translate(0)">
+                  <path
+                    id="Path_70"
+                    data-name="Path 70"
+                    d="M12.516,4.509A12,12,0,0,0,22.3,19.881,12.317,12.317,0,0,0,24,20a11.984,11.984,0,0,0,3.49-.514,12.1,12.1,0,0,1-9.963,8.421A12.679,12.679,0,0,1,16,28,12,12,0,0,1,12.516,4.509M16,0a16.5,16.5,0,0,0-2.212.15A16,16,0,0,0,16,32a16.526,16.526,0,0,0,2.01-.123A16.04,16.04,0,0,0,31.85,18.212,16.516,16.516,0,0,0,32,15.944,1.957,1.957,0,0,0,30,14a2.046,2.046,0,0,0-1.23.413A7.942,7.942,0,0,1,24,16a8.35,8.35,0,0,1-1.15-.08,7.995,7.995,0,0,1-5.264-12.7A2.064,2.064,0,0,0,16.056,0Z"
+                    fill="#040505"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </button>
+          <button class="h-full scale-[1.5] relative left-3" id="header-open">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -88,6 +113,30 @@
           href="/contacts.html"
           >Контакты</a
         >
+        <button id="theme-btn-desk" class="w-8 h-8 hidden xl:block">
+          <svg
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g id="Lager_94" data-name="Lager 94" transform="translate(0)">
+                <path
+                  id="Path_70"
+                  data-name="Path 70"
+                  d="M12.516,4.509A12,12,0,0,0,22.3,19.881,12.317,12.317,0,0,0,24,20a11.984,11.984,0,0,0,3.49-.514,12.1,12.1,0,0,1-9.963,8.421A12.679,12.679,0,0,1,16,28,12,12,0,0,1,12.516,4.509M16,0a16.5,16.5,0,0,0-2.212.15A16,16,0,0,0,16,32a16.526,16.526,0,0,0,2.01-.123A16.04,16.04,0,0,0,31.85,18.212,16.516,16.516,0,0,0,32,15.944,1.957,1.957,0,0,0,30,14a2.046,2.046,0,0,0-1.23.413A7.942,7.942,0,0,1,24,16a8.35,8.35,0,0,1-1.15-.08,7.995,7.995,0,0,1-5.264-12.7A2.064,2.064,0,0,0,16.056,0Z"
+                  fill="#040505"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
       </nav>
     </header>
     <main class="mt-8 xl:mt-20 font-normal">
